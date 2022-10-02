@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    
+    height: 10px;
+    background-image: url("https://www.cerveceriaymalteriaquilmes.com/wp-content/themes/quilmes_2020/img/logo.svg");
+    background-size: cover;
+    background-size: 10em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #d7e0f5;
+}    
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: #090831;
+}
+.coming-soon{
+     min-height: 100vh; 
+     display: flex ;
+    align-items: center;
+    flex-direction: column;  /* cambian las posiciones */
+    justify-content: center;
+
+}
+.countdown {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;   /* centrar el dia la hora minuto y segundo */
+}
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 3rem;
+}
+
+.img{
+    margin: 80px ; 
+    height: 25vh;
+    padding: 3px;
+
+}
+.svg{
+    padding: 0px;
+}
+   
+
